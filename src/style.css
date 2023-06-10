@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+:root {
+    --font-heading: 'Fraunces', serif;
+    --font-base: 'Barlow', sans-serif;
+
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(210, 4%, 67%);
+    --clr-neutral-300: hsl(232, 10%, 55%);
+    --clr-neutral-500: hsl(213, 9%, 39%);
+    --clr-neutral-800: hsl(212, 27%, 19%);
+
+    --clr-red-300: hsl(7, 99%, 70%);
+    --clr-yellow-500: hsl(51, 100%, 49%);
+    --clr-green-500: hsl(168, 34%, 41%);
+    --clr-green-700: hsl(167, 40%, 24%);
+    --clr-blue-700:  hsl(198, 62%, 26%);
+
+    --fs-base: 1.125rem;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: var(--font-heading);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: var(--font-base);
+    font-size: var(--fs-base);
+}
+
+.grid {
+    display: grid;
+    grid: auto / repeat(2, 1fr);
+    gap: 2em;
+}
+
+.hero {
+    position: relative;
+    background: url('/images/mobile/image-header.jpg') top center / 100vw 50vh no-repeat;
+    height: 70vh;
+}
+
+.hero>h1 {
+
+}
+
+.image-gallery {
+    display: grid;
+    grid: auto / repeat(2, 1fr);
+}
