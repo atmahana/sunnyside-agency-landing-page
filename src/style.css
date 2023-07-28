@@ -99,29 +99,6 @@ body {
     display: block;
 }
 
-/* .navbar__links {
-    position: absolute;
-    z-index: 999;
-    background-color: var(--clr-neutral-100);
-    width: 90%;
-    right: 1rem;
-}
-
-.navbar__links ul {
-    display: flex;
-    flex-flow: column nowrap
-}
-
-.navbar__links li {
-    padding: 1rem;
-    text-align: center;
-}
-
-.navbar__links li a {
-    color: var(--clr-neutral-200);
-    font-family: var(--ff-base);
-} */
-
 /* ///////////////// HERO SECTION //////////////// */
 
 .hero {
